@@ -1,6 +1,8 @@
 # Lab Report 1
 ## Remote Access and FileSystem
 **`cd` no arguments:**
+
+![Image](Figure 1.png)
 * Working Directory: `/home/lecture1`
 * Running the command with no argument caused the working directory to go backwards out of the folder to `/home' 
 * The output is not an error
