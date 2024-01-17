@@ -33,8 +33,8 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 
 **`cat` no arguments:**
 * Working Directory: `/home/lecture1`
-* Running the command with no arguments outputs nothing and just allows the user to begin typing in the terminal where entering doesn't return any output. Needed to ^C to get out and return to the proper command line
-* The output is technically not an error, but it does mess up the terminal and requires ^C to begin entering commands again with proper outputs.
+* Running the command with no arguments causes the terminal to default to outputting what you inputted. Needed to ctrl+C to get out and return to the normal command line.
+* The output is not an error.
 
 **`cat` directory argument:**
 * Working Directory: `/home/lecture1`
@@ -43,5 +43,5 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 
 **`cat` file arguments**
 * Working Directory: `/home/lecture1`
-* Running the command with a file argument returns the contents of the file. In this case, it returns all the imports and code of the Hello.java file and prints it to console.
+* Running the command with a file argument returns the contents of the file. In this case, it returns all the imports and code of the Hello.java file and prints it to terminal.
 * The output is not an error.
