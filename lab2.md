@@ -15,6 +15,7 @@ In this image, you can see the url path of `/add-message?s=Hello&user=jpolitz`. 
 Using the same url path keys with different messages will do the exact same process as above, and add it to the `messages` String. As you can see here, the url path `/add-messages?How are you=Hello&user=yash` adds the user and msg to the screen below the first one.
 
 **Part 2: SSH Logins**
+
 The absolute path to the private key:
 
 ![Image](P2 Fig 1.png)
@@ -28,4 +29,5 @@ Terminal Interaction Logging into `ieng6` without password:
 ![Image](P2 Fig 3.png)
 
 **Part 3: What I learned**
+
 Something I learned in week 2 & 3 which I didn't know before is how to create a local webserver on my own computer using SSH and a port number. I also learned about the different parts of a url, what the mean, and how to use them within java in order implement different functions. I always knew what urls were and the different basic parts, but I never realized how to use them in my own applications.
