@@ -54,7 +54,7 @@ Exploring `Grep`!
 
 Note: For each image, you can see the working directory at the top of the image after the command. All files are out of the `technical` directory and images only display a portion of all returned output in the console.
 
-1. `$ grep --color`
+### 1. `$ grep --color`
 
 The color command is useful because it can help you find words in large chunks of texts easier.
 
@@ -70,7 +70,7 @@ Ex 2.
 
 In this image, I used the command and searched for the word "Data" and the command with the `--color` tag made it visually apparent where the word Data was in the text.
 
-2. `$ grep -i`
+### 2. `$ grep -i`
 
 The `-i` command is useful if you want to not care about the capitalization of the words you are looking for. 
 
@@ -86,7 +86,7 @@ Ex 2.
 
 In this image, I searched for the word "Environment" with the `-i` tag where the computer doesn't worry about any capitalization and returns any instance of the word environment. You can see the last line has the lower case version and the rest have a capital E.
 
-3. `$ grep ^char`/`$ grep "char"`
+### 3. `$ grep ^char`/`$ grep "char"`
 
 The `^` indicates to the program to search to see if the char matches the first letter of every line and returns it. The `" "` searches every line for the char inputted between the quotes and returns every line with it. These commands are useful if you want to search for characters and could be espeically useful for search DNA files.
 
@@ -102,7 +102,8 @@ Ex 2.
 
 In this image, I searched the file for the letter 'H' using the `"H"` command. This command returns every single line in the file with the letter 'H' in it.
 
-4. `$ grep -v`
+### 4. `$ grep -v`
+
 The command returns the opposite of whatever we were searching for which is useful when there are a lot of similar things we don't want to be returned so we can use `-v` to search for those things and return every line that doesn't include those things.
 
 Ex 1.
